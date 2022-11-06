@@ -218,8 +218,7 @@ bot.on("message", async (msg) => {
                       msg.chat.first_name == undefined
                         ? msg.from.first_name
                         : msg.chat.first_name
-                    }
-                    Yaxshi ko'radimi: ${isLove.text}\nNima uchun: ${
+                    }\nYaxshi ko'radimi: ${isLove.text}\nNima uchun: ${
                                 what.text
                               }\nTo'ydan keyin nima deb chaqirish:${
                                 istoy.text
